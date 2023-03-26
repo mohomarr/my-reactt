@@ -13,9 +13,9 @@ code {
 }
 
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 800px) {
   body{
-    background-color: black;
+    background-color: rgb(223, 13, 13);
     color: #b2f606;
   }
 
