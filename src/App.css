@@ -28,11 +28,134 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (max-width: 600px) {
+  div{
+    background-color: rgb(223, 13, 13);
+    color: #b2f606;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
 }
+
+@keyframes startDiv {
+  0%{
+    transform: translateX(-13px);
+
+  }
+  100%{
+    transform: translateX(43px);
+    transform: scaleX(1.2);
+  }
+
+}
+
+             /* ================Navbar css====================== */
+
+
+.navbar{
+  background-color: #124f20;
+}
+.navbar a{
+  color: #b7f36e;
+
+}
+
+
+
+             /* ================calculator css====================== */
+
+.calc-sec{
+  background-color: #21231b;
+  color: #143141;
+  width: 8.5%;
+  padding: 1rem;
+border-radius: 0.4rem;
+box-shadow: 1px 1px 1px 0.5px rgba(10, 7, 7, 0.55);
+position: absolute;
+right: 5px;
+animation: belli .5s ease-in-out alternate-reverse;
+
+
+}
+.h6-calc{
+background-color: #ecda0c;
+color: #121408;
+text-align: center;
+border-radius: 0.2rem;
+font-weight: 700;
+font-size: 15px;
+
+
+
+}
+.calc{
+display: grid;
+grid-template-columns: repeat(4, 22px);
+}
+
+.calc-div{
+  background-color: #3a310f;
+  margin: 2px;
+  width: 14px;
+  text-align: center;
+  border-radius: 2px;
+color: #f7f6fc;
+font-weight: 300;
+font-size: 10px;
+box-shadow: 1px 1px 1px 0.5px rgba(153, 194, 17, 0.35);
+}
+
+.calc-div:hover{
+  cursor: pointer;
+  background-color: #5b4e1c;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+
+             /* ================Icons Side Bar css====================== */
+
+
+.icons-div {
+  position: absolute;
+  top: 12rem;
+  font-size: 2rem;
+  background-color: #124f20;
+  color: #b7f36e;
+  width: 3.3rem;
+  border-radius: .4rem;
+  padding: 4px;
+  box-shadow: 2px 1px 4px  rgba(125, 62, 25, 0.45);
+  position: fixed;
+}
+
+.dd{
+  animation: belli 2s ease-in-out alternate-reverse;
+}
+.dd:hover{
+  background-color: #c9eb57;
+  color: #5b4e1c;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+
+.bell{
+  animation: belli .5s ease-in-out infinite alternate-reverse;
+
+}
+
+@keyframes belli {
+  from
+ { transform: rotate(-25deg);}
+
+to{
+
+  transform: rotate(25deg);
+  scale: 0.5;
+}
+}
+

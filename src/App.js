@@ -1,17 +1,20 @@
+import React from 'react'
+import NavBar from './components/navbar';
+import Calculate from './components/calculate';
+import SideBar from './components/sideBar';
+
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit and save to reload.
-        </p>
 
-      </header>
+const App = () => {
+  return (
+    <div>
+    <NavBar />
+    <Calculate />
+    <SideBar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
