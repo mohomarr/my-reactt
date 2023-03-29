@@ -1,0 +1,23 @@
+img{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.From-sec{
+  position: absolute;
+  border: 3px rgb(234, 233, 238) solid;
+  width: 25 rem;
+  padding: 3rem;
+  top: 15rem;
+  left: 22rem;
+  border-radius: 2rem;
+  font-weight: 800;
+  box-shadow: 2px 1px 2px rgba(31, 120, 13, 0.59);
+}
+
+input{
+  margin: 0 2rem;
+opacity: 0.8;
+}
