@@ -29,14 +29,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
-  div{
-    background-color: rgb(223, 13, 13);
-    color: #b2f606;
-  }
 
-
-}
 
 @keyframes startDiv {
   0%{

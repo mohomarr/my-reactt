@@ -8,16 +8,47 @@ img{
 .From-sec{
   position: absolute;
   border: 3px rgb(234, 233, 238) solid;
-  width: 25 rem;
-  padding: 3rem;
-  top: 15rem;
-  left: 22rem;
+  background-color: rgba(22, 31, 21, 0.1);
+  color: #fbf6f6;
+  padding: 1rem;
+  top: 12rem;
+  left: 25rem;
   border-radius: 2rem;
   font-weight: 800;
   box-shadow: 2px 1px 2px rgba(31, 120, 13, 0.59);
+  backdrop-filter: blur(2px);
 }
 
 input{
-  margin: 0 2rem;
-opacity: 0.8;
+  border-radius: 0.3rem;
+}
+
+.form-control-plaintext{
+  background-color: rgb(249, 247, 244);
+
+}
+
+.h2-form{
+  left: 1rem;
+  text-align: center;
+}
+
+.col-form-label{
+margin-right: 0.1rem;
+}
+
+                /* ================== query maedia =================== */
+
+@media screen and (max-width: 600px) {
+
+  .From-sec{
+
+    width: 25 rem;
+    padding: 3rem;
+    top: 8rem;
+    left: 3rem;
+
+  }
+
+
 }

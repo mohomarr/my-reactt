@@ -7,8 +7,9 @@ import './style.css';
 const Global = () => {
   return (
     <div>
-      <img src='/images/11.jpeg' />
+      <img alt='' src='/images/11.jpeg' />
       <section className='From-sec'>
+        <h2 className='h2-form'>Login Form</h2>
       <div className="mb-3 row">
     <label for="staticEmail" className="col-sm-2 col-form-label">Email</label>
     <div className="col-sm-10">
@@ -18,7 +19,7 @@ const Global = () => {
   <div className="mb-3 row">
     <label for="inputPassword" className="col-sm-2 col-form-label">Password</label>
     <div className="col-sm-10">
-      <input type="password" className="form-control" id="inputPassword"/>
+      <input type="password" className="form-control" id="inputPassword" placeholder='Password'/>
     </div>
   </div>
 
