@@ -45,12 +45,14 @@
 
              /* ================Navbar css====================== */
 
-
+body{
+  background-color: rgb(101, 189, 222);
+}
 .navbar{
-  background-color: #124f20;
+  background:none;
 }
 .navbar a{
-  color: #b7f36e;
+  color: #223b02;
 
 }
 

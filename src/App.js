@@ -1,21 +1,14 @@
 import React from 'react'
-import Global from './components/global';
 
 
 
 import './App.css';
+import Home from './home';
 
 
 const App = () => {
   return (
-
-
-
-      <Global />
-
-
-
-
+  <Home />
   )
 }
 

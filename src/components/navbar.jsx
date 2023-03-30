@@ -24,7 +24,8 @@ const NavBar = () => {
 
     <ul className="navbar-nav mr-auto">
 
-         <Link to='/calculate'>Calcukator</Link>
+         <Link  className='btn' to='/calculate'>Calcukator</Link>
+         <Link  className='btn' to='/global'>Login Form</Link>
 
     </ul>
     <form className="form-inline my-2 my-lg-0">

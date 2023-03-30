@@ -10,45 +10,66 @@ img{
   border: 3px rgb(234, 233, 238) solid;
   background-color: rgba(22, 31, 21, 0.1);
   color: #fbf6f6;
-  padding: 1rem;
-  top: 12rem;
-  left: 25rem;
+  padding: 10%;
+  top: 22%;
+  left: 35%;
   border-radius: 2rem;
   font-weight: 800;
-  box-shadow: 2px 1px 2px rgba(31, 120, 13, 0.59);
+  box-shadow: 2px 1px 2px rgba(26, 115, 8, 0.89);
   backdrop-filter: blur(2px);
+  width: 30%;
 }
 
-input{
-  border-radius: 0.3rem;
+input:focus {
+  outline: none;
 }
 
-.form-control-plaintext{
-  background-color: rgb(249, 247, 244);
+.form-control:focus {
+  outline:none;
+  background: none;
+  border: none;
+  border-color: initial;
+  box-shadow: none;
 
 }
+
+
+
+.form-control,.form-control-plaintext{
+  position: absolute;
+  top: -2.3rem;
+  left: 5.8rem;
+  background: none;
+  color: #f7f1f1;
+  border: none;
+  width: 100%;
+
+}
+
 
 .h2-form{
   left: 1rem;
   text-align: center;
+  font-size: 111%;
 }
 
 .col-form-label{
-margin-right: 0.1rem;
+border-bottom: 2px solid white;
+position: relative;
+width: 100%;
 }
+
+
+
 
                 /* ================== query maedia =================== */
 
 @media screen and (max-width: 600px) {
+input, .col-form-label{
+  font-size: 1%;
+  left: 1%;
 
-  .From-sec{
-
-    width: 25 rem;
-    padding: 3rem;
-    top: 8rem;
-    left: 3rem;
-
-  }
+}
 
 
 }
